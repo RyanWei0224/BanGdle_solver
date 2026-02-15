@@ -67,7 +67,6 @@ function read_json(){
 
 		input.onchange = function(event) {
 			const file = event.target.files[0];
-			console.log(file);
 			if (!file){
 				reject(new Error('no file selected'));
 				return;
